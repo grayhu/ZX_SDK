@@ -1,0 +1,19 @@
+{
+  "title" : "Ê×Ò³",
+  "layouts" : [ {
+    "type" : "grid_980",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "yhd-um-carousel"
+      }, {
+        "moduleID" : "yhd-um-accordion"
+      }, {
+        "moduleID" : "yhd-um-popup"
+      }, {
+        "moduleID" : "yhd-um-slide"
+      }, {
+        "moduleID" : "yhd-um-tab"
+      } ]
+    }
+  } ]
+}

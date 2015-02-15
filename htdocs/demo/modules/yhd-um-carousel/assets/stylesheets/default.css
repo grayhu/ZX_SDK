@@ -1,0 +1,24 @@
+/**
+ * 模块：yhd-um-carousel 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".yhd-um-carousel"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是1号店URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.yhd-um-carousel {color:black;margin-top:10px;}
+.yhd-um-carousel .mall-slide { border-bottom: 1px solid #E5E5E5;border-left: 1px solid #D8D8D8;border-right: 1px solid #D8D8D8;border-top: 1px solid #D8D8D8;height: 187px;position: relative;width: 978px;}
+.yhd-um-carousel .mall-slide .mall-prev {background: url(assets/images/icon-arrows.png) 0 -34px no-repeat scroll transparent;display: block;position: absolute;left: 0;width: 34px;top: 50px;height: 34px;}
+.yhd-um-carousel .mall-slide .mall-next {background: url(assets/images/icon-arrows.png) -34px -34px no-repeat scroll transparent;display: block;position: absolute;right: 0;width: 34px;top: 50px;height: 34px;}
+.yhd-um-carousel .mall-slide .mall-prev:hover {background-position: 0 0;}
+.yhd-um-carousel .mall-slide .mall-next:hover {background-position: -34px 0;}
+.yhd-um-carousel .mall-slide .mall-content {background: -moz-linear-gradient(center top , #ECECEC, #FFFFFF) repeat scroll 0 0 transparent;height: 182px;left: 35px;overflow: hidden;position: absolute;width: 908px;margin-top:5px;}
+.yhd-um-carousel .mall-slide li.big-piclist {display: block;float: left;height: 120px;overflow: hidden;width: 908px;}
+.yhd-um-carousel .mall-slide .big-piclist a {display: block;float: left;height: 120px;margin-right: 1px;overflow: hidden;width: 908px;}
+.yhd-um-carousel .mall-slide .big-piclist img {width:908px; height: 120px;}
+.yhd-um-carousel .mall-slide .yhd-switchable-nav{margin-top:125px;width:908px;overflow:hidden;}
+.yhd-um-carousel .mall-slide .yhd-switchable-nav li{float:left;width:285px;height:50px;overflow:hidden;margin-right:15px;border:solid 1px #FFFFFF;cursor:pointer;}
+.yhd-um-carousel .mall-slide .yhd-switchable-nav li.yhd-active{border:solid 1px red;}
+.yhd-um-carousel .mall-slide .yhd-switchable-nav li img{width:285px;height:50px;}

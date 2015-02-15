@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GBK" standalone="yes"?>
+<site>
+    <id>e7b011cdf19749c9986f27e3ec39b531</id>
+    <name>演示模板</name>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <language>PHP</language>
+    <version>1.0.0</version>
+    <apply-sites>100</apply-sites>
+    <apply-user>52sport</apply-user>
+    <template-type>2</template-type>
+    <sale-type>1</sale-type>
+    <change-notes>getMessage([提示：请添加模板修改日志]</change-notes>
+    <description>演示模板</description>
+    <global>
+        <header>header.json</header>
+        <footer>footer.json</footer>
+    </global>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
+    </themes>
+    <pages>
+        <page type="100">
+            <name>首页</name>
+            <file>index.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description>[提示：请添加首页的描述]</description>
+        </page>
+        <page type="101">
+            <name>商品列表页</name>
+            <file>list.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description>[提示：请添加商品列表页的描述]</description>
+        </page>
+        <page type="102">
+            <name>商品详情页</name>
+            <file>detail.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description>[提示：请添加商品详情页的描述]</description>
+        </page>
+    </pages>
+</site>

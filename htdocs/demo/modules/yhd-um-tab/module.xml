@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK" standalone="yes"?>
+<module>
+    <id>yhd-um-tab</id>
+    <uuid>c9b8916d080f473fa10b0c3fe6c4ba74</uuid>
+    <name>标签</name>
+    <file>yhd-um-tab.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>标签</description>
+    <supportedWidth>200,560,770,980</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

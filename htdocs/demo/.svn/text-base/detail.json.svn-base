@@ -1,0 +1,15 @@
+{
+  "title" : "ÉÌÆ·ÏêÇéÒ³",
+  "layouts" : [ {
+    "type" : "grid_980",
+    "modules" : {
+      "main" : [ ]
+    }
+  }, {
+    "type" : "grid_200_770",
+    "modules" : {
+      "main" : [ ],
+      "sub" : [ ]
+    }
+  } ]
+}

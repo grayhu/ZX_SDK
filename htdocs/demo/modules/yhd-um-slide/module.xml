@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK" standalone="yes"?>
+<module>
+    <id>yhd-um-slide</id>
+    <uuid>755cebf5ea3c464685b0a73c1f13cfa2</uuid>
+    <name>卡盘</name>
+    <file>yhd-um-slide.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>卡盘</description>
+    <supportedWidth>200,560,770,980</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

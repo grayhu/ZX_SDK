@@ -1,0 +1,14 @@
+{
+  "title" : "商品列表页",
+  "layouts" : [ {
+    "type" : "grid_200_770",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "yhd-sm-shop-goods"
+      } ],
+      "sub" : [ {
+        "moduleID" : "yhd-sm-shop-info"
+      } ]
+    }
+  } ]
+}

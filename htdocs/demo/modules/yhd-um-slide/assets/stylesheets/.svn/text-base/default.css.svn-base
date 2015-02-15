@@ -1,0 +1,51 @@
+/**
+ * 模块：yhd-um-slide 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".yhd-um-slide"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是1号店URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.yhd-um-slide {color:black;margin-top:10px;}
+.yhd-um-slide .slide1 { position: relative; width: 978px; height: 120px; border: 1px solid #B6D1E6; overflow: hidden; }
+.yhd-um-slide .slide1 .yhd-switchable-nav { position: absolute; bottom: 5px; right: 5px; z-index: 99; }
+.yhd-um-slide .slide1 .yhd-switchable-nav li {
+        float: left;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        margin-left: 10px;
+        background-color: #666;
+        color: #D94B01;
+        text-align: center;
+        cursor: pointer;
+    
+        color: #fff;
+        border-radius: 100%;
+}
+.yhd-um-slide .slide1 .yhd-switchable-nav li.yhd-active {
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        margin-top: -1px;
+        color: #FFF;
+        background-color: #e60021;
+    }
+.yhd-um-slide .slide1 .yhd-switchable-content li { height: 120px; width: 978px; overflow: hidden; }
+.yhd-um-slide .slide1 .yhd-switchable-nav li,
+.yhd-um-slide .slide1 .yhd-switchable-trigger-content {
+        position: relative;
+    }
+.yhd-um-slide .slide1 .yhd-switchable-trigger-mask {
+        position: absolute;
+        right: 0;
+        width: 18px;
+        height: 18px;
+        background-color: #FF9415;
+        visibility: hidden
+    }
+.yhd-um-slide .slide1 .yhd-active .yhd-switchable-trigger-mask {
+        visibility: visible
+    }

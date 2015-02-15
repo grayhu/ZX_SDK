@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK" standalone="yes"?>
+<module>
+    <id>yhd-um-carousel</id>
+    <uuid>f9d580e80c47421785a6fea42c9e5dbb</uuid>
+    <name>旋转木马</name>
+    <file>yhd-um-carousel.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>旋转木马</description>
+    <supportedWidth>200,560,770,980</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

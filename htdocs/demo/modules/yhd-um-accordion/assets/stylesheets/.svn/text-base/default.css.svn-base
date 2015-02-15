@@ -1,0 +1,20 @@
+/**
+ * 模块：yhd-um-accordion 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".yhd-um-accordion"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是1号店URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.yhd-um-accordion {color:black;margin-top:10px;}
+.yhd-um-accordion .accordion1 {height: 260px;border: 1px solid #ccc;width:978px;}
+.yhd-um-accordion .accordion1 .yhd-switchable-trigger {padding: 3px 10px;cursor: pointer;border-right: 1px solid #ddd;background: #E40011;overflow: hidden;width: 18px;height:254px;float:left;}
+.yhd-um-accordion .accordion1 .yhd-switchable-trigger h3 {float: left;width: 18px;margin-left: 0px;color: #fff;}
+.yhd-um-accordion .accordion1 .yhd-switchable-panel {height: 240px;padding: 10px 0px;border-right: 1px solid #ddd;float:left;width:822px;text-align:center;}
+.yhd-um-accordion .accordion1 .yhd-icon {float: left;width: 12px;height: 12px;overflow: hidden;margin-top: 2px;font-size: 0;vertical-align: middle;background: url(assets/images/icon-trigger.png) no-repeat 0 0;}
+.yhd-um-accordion .accordion1 .yhd-active .yhd-icon {background-position: -20px 0;}
+.yhd-um-accordion .accordion1 .last-trigger {border-right-width: 0}
+.yhd-um-accordion .accordion1 .yhd-active {border-right-width: 1px}
+.yhd-um-accordion .accordion1 .last-panel {border-right: none}

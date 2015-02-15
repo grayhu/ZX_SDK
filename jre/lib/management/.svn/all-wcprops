@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1165251/source/yihaodian/PLS/PLS-1/fuwu-front/branches/zx-sdk/ZX_SDK/jre/lib/management
+END
+jmxremote.password.template
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1165251/source/yihaodian/PLS/PLS-1/fuwu-front/branches/zx-sdk/ZX_SDK/jre/lib/management/jmxremote.password.template
+END
+snmp.acl.template
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1165251/source/yihaodian/PLS/PLS-1/fuwu-front/branches/zx-sdk/ZX_SDK/jre/lib/management/snmp.acl.template
+END
+management.properties
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1165251/source/yihaodian/PLS/PLS-1/fuwu-front/branches/zx-sdk/ZX_SDK/jre/lib/management/management.properties
+END
+jmxremote.access
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1165251/source/yihaodian/PLS/PLS-1/fuwu-front/branches/zx-sdk/ZX_SDK/jre/lib/management/jmxremote.access
+END

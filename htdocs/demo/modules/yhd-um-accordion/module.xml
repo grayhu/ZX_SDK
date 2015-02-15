@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK" standalone="yes"?>
+<module>
+    <id>yhd-um-accordion</id>
+    <uuid>ecd864da5fd84c15878872ffd414f071</uuid>
+    <name>手风琴</name>
+    <file>yhd-um-accordion.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>手风琴</description>
+    <supportedWidth>200,560,770,980</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

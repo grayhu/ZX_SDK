@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK" standalone="yes"?>
+<module>
+    <id>yhd-um-popup</id>
+    <uuid>3ac2f1bb42054b4a9938ca8b5426da1d</uuid>
+    <name>弹出层</name>
+    <file>yhd-um-popup.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>弹出层</description>
+    <supportedWidth>200,560,770,980</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>
